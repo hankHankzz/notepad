@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mi_tag"
+        android:title="分类筛选：xxx"
+        android:visible="true"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/mi_tag_all"
+                android:title="全部" />
+            <item
+                android:id="@+id/mi_tag_default"
+                android:title="默认" />
+            <item
+                android:id="@+id/mi_tag_life"
+                android:title="生活" />
+            <item
+                android:id="@+id/mi_tag_note"
+                android:title="笔记" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/sv_index"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/si_index"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi_add"
+        android:title="@string/mi_add" />
+    <item
+        android:id="@+id/mi_multiselect"
+        android:title="@string/mi_multiselect"/>
+    <item
+        android:id="@+id/mi_exit"
+        android:title="@string/mi_exit" />
+</menu>

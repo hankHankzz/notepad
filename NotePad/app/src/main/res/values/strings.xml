@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="si_index">查找</string>
+    <string name="mi_exit">退出</string>
+    <string name="mi_multiselect">多选</string>
+    <string name="mi_add">新建笔记</string>
+    <string name="iv_remove">remove</string>
+    <string name="iv_edit">edit</string>
+    <string name="tv_title">Title</string>
+    <string name="tv_time">Time</string>
+    <string name="iv_icon">icon</string>
+    <string name="mi_delete">delete</string>
+    <string name="et_text_hint">写点什么吧.....</string>
+    <string name="et_title_hint">Title.....</string>
+    <string name="tv_text">Text</string>
+    <string name="tv_tag">tag</string>
+</resources>

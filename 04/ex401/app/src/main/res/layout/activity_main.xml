@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/et_url_hint"
+        android:ems="10"
+        android:inputType="textUri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="clickOpenURL"
+        android:text="@string/btn_open"
+        app:layout_constraintEnd_toEndOf="@+id/et_url"
+        app:layout_constraintStart_toStartOf="@+id/et_url"
+        app:layout_constraintTop_toBottomOf="@+id/et_url" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/et_url"
+        android:text="@string/tv"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_url"
+        app:layout_constraintStart_toStartOf="@+id/et_url" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

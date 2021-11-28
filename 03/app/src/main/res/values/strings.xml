@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AS_Dev</string>
+
+    <string name="tv_11">One,One</string>
+    <string name="tv_12">One,Two</string>
+    <string name="tv_13">One,Three</string>
+    <string name="tv_14">One,Four</string>
+
+    <string name="tv_21">Two,One</string>
+    <string name="tv_22">Two,Two</string>
+    <string name="tv_23">Two,Three</string>
+    <string name="tv_24">Two,Four</string>
+
+    <string name="tv_31">Three,One</string>
+    <string name="tv_32">Three,Two</string>
+    <string name="tv_33">Three,Three</string>
+    <string name="tv_34">Three,Four</string>
+
+    <string name="tv_41">Four,One</string>
+    <string name="tv_42">Four,Two</string>
+    <string name="tv_43">Four,Three</string>
+    <string name="tv_44">Four,Four</string>
+    <string name="tv_red">RED</string>
+    <string name="tv_orange">ORANGE</string>
+    <string name="tv_yellow">YELLOW</string>
+    <string name="tv_violet">VIOLET</string>
+    <string name="tv_blue">BLUE</string>
+    <string name="tv_green">GREEN</string>
+    <string name="tv_indigo">INDIGO</string>
+    <string name="btn_next">Next</string>
+
+</resources>

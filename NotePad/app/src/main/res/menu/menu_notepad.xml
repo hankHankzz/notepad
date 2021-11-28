@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mi_tag"
+        android:title="分类：xxx"
+        android:visible="true"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/mi_tag_default"
+                android:title="默认" />
+            <item
+                android:id="@+id/mi_tag_life"
+                android:title="生活" />
+            <item
+                android:id="@+id/mi_tag_note"
+                android:title="笔记" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mi_color_palette"
+        app:actionLayout="@layout/icon_palette"
+        android:title="颜色选择"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mi_save"
+        app:actionLayout="@layout/icon_save"
+        android:title="保存"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mi_return"
+        app:actionLayout="@layout/icon_return"
+        android:title="返回"
+        app:showAsAction="always" />
+
+</menu>
