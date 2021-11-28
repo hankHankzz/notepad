@@ -318,18 +318,22 @@ public class MainActivity extends AppCompatActivity
                 initList("默认");
                 mi_tag.setTitle("分类：默认");
                 break;
-            case R.id.mi_tag_life:
-                initList("生活");
-                mi_tag.setTitle("分类：生活");
+            case R.id.mi_tag_mood:
+                initList("心情");
+                mi_tag.setTitle("分类：心情");
                 break;
             case R.id.mi_tag_note:
                 initList("笔记");
                 mi_tag.setTitle("分类：笔记");
                 break;
-
-            case R.id.mi_add://新建按钮
-                addNote();
+            case R.id.mi_tag_handWritting:
+                initList("随手记");
+                mi_tag.setTitle("分类：随手记");
                 break;
+
+//            case R.id.mi_add://新建按钮
+//                addNote();
+//                break;
             case R.id.mi_multiselect://多选按钮
                 if (am == null)
                     am = startActionMode(callback);

@@ -122,14 +122,10 @@ public class ActivityNotepad extends AppCompatActivity
         et_text.addTextChangedListener(new TextWatcher()
         {
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after)
-            {
-            }
+            public void beforeTextChanged(CharSequence s, int start, int count, int after){}
 
             @Override
-            public void afterTextChanged(Editable s)
-            {
-            }
+            public void afterTextChanged(Editable s) {}
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count)
@@ -203,13 +199,17 @@ public class ActivityNotepad extends AppCompatActivity
                 tag="默认";
                 mi_tag.setTitle("分类："+tag);
                 break;
-            case R.id.mi_tag_life:
-                tag="生活";
+            case R.id.mi_tag_mood:
+                tag="心情";
                 mi_tag.setTitle("分类："+tag);
                 break;
             case R.id.mi_tag_note:
                 mi_tag.setTitle("分类："+tag);
                 tag="笔记";
+                break;
+            case R.id.mi_tag_handWritting:
+                mi_tag.setTitle("分类："+tag);
+                tag="随手记";
                 break;
 
         }

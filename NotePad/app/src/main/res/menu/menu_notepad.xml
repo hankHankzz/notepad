@@ -12,11 +12,14 @@
                 android:id="@+id/mi_tag_default"
                 android:title="默认" />
             <item
-                android:id="@+id/mi_tag_life"
-                android:title="生活" />
+                android:id="@+id/mi_tag_mood"
+                android:title="心情" />
             <item
                 android:id="@+id/mi_tag_note"
-                android:title="笔记" />
+                android:title="日记" />
+            <item
+                android:id="@+id/mi_tag_handWritting"
+                android:title="随手记" />
         </menu>
     </item>
     <item

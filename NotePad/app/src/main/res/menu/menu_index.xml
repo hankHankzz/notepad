@@ -29,9 +29,6 @@
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="always" />
     <item
-        android:id="@+id/mi_add"
-        android:title="@string/mi_add" />
-    <item
         android:id="@+id/mi_multiselect"
         android:title="@string/mi_multiselect"/>
     <item
